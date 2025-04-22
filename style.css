@@ -38,7 +38,7 @@ body {
   border-radius: 30px;
   flex: 1;
   margin-right: 16px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .search button {
@@ -49,10 +49,14 @@ body {
   width: 60px;
   height: 60px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .search button img {
-  width: 30px;
+  width: 28px;
+  height: 28px;
 }
 
 .weather-icon {
@@ -77,13 +81,16 @@ body {
   justify-content: space-between;
   padding: 20px 20px;
   margin-top: 50px;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .col {
   display: flex;
   align-items: center;
   text-align: left;
-  margin-bottom: 30px;
+  flex: 1 1 45%;
+  gap: 10px;
 }
 
 .col img {
